@@ -7,6 +7,10 @@
 body{
     font-family: 'Outfit', sans-serif;
     background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .nftcard{
    max-width: 350px;
@@ -55,6 +59,50 @@ position: relative;
     padding: 20px 0;
     display: inline-block;
 }
+.box-text a:hover{
+    color: hsl(178, 100%, 50%);
+}
 p{
     color: hsl(215, 51%, 70%);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.ethereum,.dias{
+    display: flex;
+    align-items: center;
+}
+.ethereum p{
+    color:hsl(178, 100%, 50%) ;
+    font-weight: 600;
+    padding-left: 7px;
+}
+.dias p{
+    padding-left: 7px;
+}
+hr{
+    border-color:hsl(215, 32%, 27%);
+}
+.autor{
+    display: flex;
+    align-items: center;
+    padding-top:5px;
+}
+.autor img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right:15px;
+   
+}
+.autor p a.name{
+    color:#fff;
+    font-size: 16px;
+}
+.autor p a.name:hover{
+    color: hsl(178, 100%, 50%);
 }
