@@ -43,7 +43,7 @@ body{
 }
 .button:hover{
     color:var(--White);
-    background-color:var(--Very_dark_blue_CBG);
+    background-color:white;
 }
 .button:disabled{
     opacity: 0.5;
