@@ -38,13 +38,12 @@ body{
     border:2px solid currentColor;
     font-size: var(--name_and_stats_Font_size);
     font-weight: 600;
-    color: var(--Soft_blue);
+    color:white;
     background-color:var(--Very_dark_blue_L);
 }
 .button:hover{
     color:var(--White);
-    background-color: var(--Very_dark_blue_L);
-    box-shadow: 0px 0px 8px 8px var(--cyan);
+    background-color:var(--Very_dark_blue_CBG);
 }
 .button:disabled{
     opacity: 0.5;

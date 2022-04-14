@@ -9,11 +9,11 @@ const state={
     quantity: maxCards,
 }
 
-//Crear botones
-createButton("Add NFT Card", "addNFTCard")
-createButton("Remove NFT Card", "removeNFTCard")
 
-//Petición del contenido de las tarjetas
+createButton("Añadir", "addNFTCard")
+createButton("Borrar", "removeNFTCard")
+
+
 const contentCard = getContentCards()
 
 //Construcción de las tarjetas
